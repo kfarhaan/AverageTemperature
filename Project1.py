@@ -18,6 +18,7 @@ days = int(input("How many day's temperature? "))
 value = 0
 count = 0
 
+
 while(True):
     count = len(days_temp) + 1
     if count <= days:
