@@ -7,7 +7,7 @@ while(True):
     count = len(days_temp) + 1
     if count <= days:
         temp = int(input(f"Day {count}'s high temp: "))
-        days_temp.append(temp)
+        days_temp.append(temp) 
     else: break
 
 average_temp = sum(days_temp) / count
